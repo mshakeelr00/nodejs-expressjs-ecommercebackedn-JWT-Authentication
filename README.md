@@ -1,10 +1,11 @@
-Node.js + Express.js E-commerce Backend with JWT Authentication
+**Node.js + Express.js E-commerce Backend with JWT Authentication**
 
 A fully functional backend for an e-commerce application built using Node.js, Express.js, MongoDB, and JWT Authentication.
 This project includes user authentication, product management, order handling, and secure role-based access.
 
-🚀 Features
-🔐 Authentication & Security
+**🚀 Features**
+
+**🔐 Authentication & Security**
 
 - JWT-based Authentication
 
@@ -14,33 +15,33 @@ This project includes user authentication, product management, order handling, a
 
 - Role-Based Access (User / Admin)
 
-🛒 E-commerce Functionalities
+**🛒 E-commerce Functionalities**
 
-Product CRUD (Create, Read, Update, Delete)
+- Product CRUD (Create, Read, Update, Delete)
 
-Category management
+- Category management
 
-Order management
+- Order management
 
-Cart system (if included)
+- Cart system (if included)
 
-⚙️ Tech Stack
+**⚙️ Tech Stack**
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-MongoDB / Mongoose
+- MongoDB / Mongoose
 
-JWT Authentication
+- JWT Authentication
 
-bcrypt
+- bcrypt
 
-dotenv
+- dotenv
 
-MVC Folder Structure
+- MVC Folder Structure
 
-📁 Project Structure
+**📁 Project Structure**
 nodejs-expressjs-ecommercebackedn-JWT-Authentication/
 │── config/
 │── controller/
@@ -50,7 +51,7 @@ nodejs-expressjs-ecommercebackedn-JWT-Authentication/
 │── package.json
 │── .env
 
-🔧 Installation & Setup
+**🔧 Installation & Setup**
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
@@ -74,36 +75,35 @@ Server runs on:
 
 http://localhost:5000
 
-📌 Available APIs
-Auth Routes
-Method	Endpoint	Description
-POST	/api/register	Create a new user
-POST	/api/login	Login user & generate JWT token
-Product Routes
-Method	Endpoint	Description
-GET	/api/products	Get all products
-POST	/api/products	Create product (Admin only)
-PUT	/api/products/:id	Update product
-DELETE	/api/products/:id	Delete product
-Order Routes (if included)
-Method	Endpoint	Description
-POST	/api/order	Create order
-GET	/api/orders	Get user orders
-GET	/api/admin/orders	Admin: View all orders
-🛡️ Middleware
+**📌 Available APIs**
+- Auth Routes
+- Method	Endpoint	Description
+- POST	/api/register	Create a new user
+- POST	/api/login	Login user & generate JWT token
+- Product Routes
+- Method	Endpoint	Description
+- GET	/api/products	Get all products
+- POST	/api/products	Create product (Admin only)
+- PUT	/api/products/:id	Update product
+- DELETE	/api/products/:id	Delete product
+- Order Routes (if included)
+- Method	Endpoint	Description
+- POST	/api/order	Create order
+- GET	/api/orders	Get user orders
+- GET	/api/admin/orders	Admin: View all orders
 
-authMiddleware → Checks JWT Token
+**🛡️ Middleware**
+- authMiddleware → Checks JWT Token
+- adminMiddleware → Verifies admin role
 
-adminMiddleware → Verifies admin role
+**🗄️ Database**
 
-🗄️ Database
+- Uses MongoDB Atlas or local MongoDB server.
 
-Uses MongoDB Atlas or local MongoDB server.
+**🧪 Testing (Optional)**
 
-🧪 Testing (Optional)
+- Use Postman/ThunderClient to test all routes.
 
-Use Postman/ThunderClient to test all routes.
+**🤝 Contributing**
 
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
+- Contributions, issues, and feature requests are welcome!
